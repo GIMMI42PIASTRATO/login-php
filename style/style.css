@@ -78,6 +78,11 @@ input {
     outline: darkgray .2em solid ;
 }
 
+.form .error {
+    outline: red .2em solid;
+
+}
+
 .form > button {
     box-sizing: border-box;
     min-width: 430px;
