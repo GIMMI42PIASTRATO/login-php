@@ -1,0 +1,16 @@
+nav {
+    display: block;
+    background-color: #00ADB5;
+    padding: 2rem 10rem;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #222831;
+    min-height: 100vh;
+}
+
+/* nav {
+    background-color: #00ADB5;
+    padding: 2rem 10rem;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    
+} */
+
+a {
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+    
+}
+
+input {
+    color: black;
+}
+
+.formContainer {
+    flex-grow: 1;
+    min-height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.form { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 1.5rem 5rem 1.5rem;
+    border-radius: 0.5rem;
+    gap: 1rem;
+    background-color: #393E46
+}
+
+.form > input {
+    box-sizing: border-box;
+    border-radius: .5rem;
+    min-width: 430px;
+    margin: 0;
+    padding: 1.3rem 1rem;
+    border: 1px darkgray solid;
+    font-size: 1.1rem;
+}
+
+.form > input:focus {
+    outline: darkgray .2em solid ;
+}
+
+.form > button {
+    box-sizing: border-box;
+    min-width: 430px;
+    background-color: #00ADB5;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 1.3rem 1rem;
+    border: 1px solid darkgray;
+    border-radius: .5rem;
+    margin-top: .5rem;
+}
+
+.form > a {
+    margin: .5rem;
+    text-decoration: underline 1px white;
+}
